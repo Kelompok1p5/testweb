@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title></title>
+    <style>
+  @keyframes smoothBounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  .smooth-bounce {
+    animation: smoothBounce 2s ease-in-out infinite;
+    display: inline-block;
+  }
+</style>
+
+    <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #fff;
+    }
+
+    /* Header (tanpa nav) */
+    .header {
+      background-color: #4dabf7; /* biru muda */
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 24px;
+    }
+        
+    .hero {
+      background-color: #e3f2fd; /* biru muda lebih terang */
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero-title {
+      color: #1e40af; /* biru tua */
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .hero-subtitle {
+      font-size: 18px;
+    }
+
+    /* Fitur Section */
+    .fitur {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #e3f2fd;
+      flex-wrap: wrap;
+    }
+
+    .fitur-box {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .fitur-title {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .fitur-title.orange {
+      color: #1976d2; /* biru tua */
+    }
+
+    .fitur-title.blue {
+      color: #0d47a1; /* biru lebih gelap */
+    }
+
+    .fitur-title.pink {
+      color: #0288d1; /* biru terang */
+    }
+
+    .fitur-img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+        <style>
+  .no-highlight {
+    user-select: none;   /* hilangkan highlight */
+    text-align: left;    /* teks rata kiri */
+    padding: 20px;       /* opsional: jarak dalam */
+  }
+</style>
+
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    Kelompok 1 X.E.4 Present
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2 class="hero smooth-bounce">Halo, Selamat Datang Teman-Teman! 👋</h2>
+      <h3> Website Edukasi Fisika </h3>
+  </section>
+
+  <!-- Fitur Section -->
+  <section class="fitur">
+    <div class="fitur-box">
+      <img src="img/kebakaranhutan.jpeg" alt="icon" class="fitur-img">
+      <h3 class="fitur-title orange">Kebakaran Hutan</h3>
+        <p>Hutan sering terbakar diakibatkan suhu tinggi dan kelembapan yang rendah</p>
+        
+    </div>
+    <div class="fitur-box">
+      <img src="img/gletsermencair.jpeg" alt="icon" class="fitur-img">
+      <h3 class="fitur-title blue">Gletser Mencair</h3>
+      <p>Pemanasan global menyebabkan suhu bumi naik, sehingga es di Kutub mencair lebih cepat dan permukaan air laut tinggi</p>
+    </div>
+    <div class="fitur-box">
+      <img src="Img/cuacaekstrim.jpeg" alt="icon" class="fitur-img">
+      <h3 class="fitur-title pink">Cuaca Ekstrim</h3>
+      <p>Diakibatkan oleh pemanasan global yang mengganggu keseimbangan iklim.</p>
+    </div>
+  </section>
+
+</body>
+</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Edukasi Fisika</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/pemanasanglobal.png" alt="Pemanasan Global" class="logo" tyle="width: 100%; max-width: 100%; height: auto;">
+            <nav>
+                <ul>
+                    <li><a href="#home">🌿Beranda</a></li>
+                    <li><a href="#materi">🌿Materi Fisika</a></li>
+                    <li><a href="#quiz">🌿Artikel Dan Sumber Terkait</a></li>
+                    <li><a href="#quiz">🌿Kuiz</a></li>
+                    <li><a href="#quiz">🌿Tentang Kami</a></li>
+                    <li><a href="#contact">🌿Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="intro">
+        <div class="intro">
+            <h1 class="smooth-bounce" style="color: darkgreen">Selamat Datang di Website Edukasi Fisika🌱</h1>
+            <p style="margin-bottom: 20px;">Pelajari fisika dengan cara yang menyenangkan dan mudah dimengerti!</p>
+
+            <h2 style="color: forestgreen">Tujuan Website</h2>
+            <p style="margin-bottom: 20px;">Melalui website ini, kami ingin menyampaikan informasi tentang pemanasan global dengan bahasa yang sederhana, menarik, dan mudah dipahami. Kami percaya bahwa perubahan besar bisa dimulai dari langkah kecil, termasuk dari kita sebagai pelajar.</p>
+        </div>
+    </section>
+
+    <section id="materi" class="materi">
+        <div class="container">
+            <h2 style="margin-bottom: 20px; color: forestgreen">Materi Fisika🌿</h2>
+            <div class="materi-item">
+                <h3>Pemanasan Global</h3>
+                <p style="margin-bottom: 20px;">Pemanasan global adalah peningkatan suhu rata-rata permukaan bumi secara bertahap akibat meningkatnya jumlah gas rumah kaca di atmosfer, seperti karbon dioksida (CO2), metana (CH4), dan dinitrogen oksida (N2O).</p>
+                
+            </div>
+            
+            <div class="materi-item">
+                <h3>Penyebab Pemanasan Global</h3>
+                <p>1. Penggunaan CFC dalam pendingin.</p>
+                <p>2. Emisi metana dari kotoran hewan, lahan pertanian, dan dari dasar laut arktik.</p>
+                <p>3. Meningkatnya penggunaan pupuk kimia untuk pertanian.</p>
+                <p>4. Penebangan liar yang disertai dengan pembakaran lahan.</p>
+                <p>5. Emisi CO2 yang berasal dari pembakaran gasoline (bahan bakar alat transportasi).
+                <p style="margin-bottom: 20px;">6. Emisi CO2 dari pembakaran bahan bakar fosil sebagai pembangkit tenaga listrik.
+                <h3>Dampak Pemanasan Global
+</h3>
+                <p>1. Menipisnya lapisan ozon.
+</p>
+                <p>2. Permukaan laut di utara meningkat akibat mencairnya puncak es.</p>
+                <p>3. Temperatur yang tinggi menyebabkan lebih banyak penguapan dan curah hujan.</p>
+                <p>4. Hilangnya terumbu karang karena terumbu karang ditakutkan tidak dapat beradaptasi dengan baik akibat perubahan kondisi lingkungan.</p>
+                <p>5. Kegagalan panen besar-besaran.
+</p>
+                <p>6. Kepunahan spesies yang semakin meluas.</p>
+                <p style="margin-bottom: 20px;">7. Temperatur di bumi meningkat.</p>
+                <h3>Cara Menangani Pemanasan Global</h3>
+                <P>1.Mengurangi penggunaan energi tak terbarukan dan beralih menggunakan energi terbarukan.
+</P>
+                <P>2.Menggunakan produk yang ramah lingkungan.
+</P>
+                <P>3. Meningkatkan efisiensi bahan bakar kendaraan.
+</P>
+                <p>4. Menggunakan energi listrik dengan hemat.
+</p>
+                <P style="margin-bottom: 20px;">5. Mengurangi penebangan pohon dan mendukung kegiatan reboisasi.
+                </P>
+                <h3>Artikel Dan Sumber Terkait🌿</h3>  
+                <p><a href="https://www.bmkg.go.id/berita/utama/perubahan-iklim-mengancam-kehidupan-global" target="_blank">Baca Selengkapnya -Perubahan Iklim-BMKG</a></p>
+                <p><a href="https://beritakota.id/kampanye-go-green-with-taiwan-ciptakan-masa-depan-lebih-berkelanjutan-dengan-teknologi-dan-kesadaran/" target="_blank">Baca Selengkapnya -Kampanye Go Green</a></p>
+                <p style="margin-bottom: 20px;"><a href="https://lestari.kompas.com/read/2025/01/02/110000386/karena-perubahan-iklim-rekor-suhu-panas-kemungkinan-besar-berlanjut-2025" target="_blank">Baca Selengkapnya -Rekor Suhu Global Akibat Perubahan Iklim</a></p>
+            </div>
+            <!-- Bisa ditambahkan materi lain -->
+
+    <section id="quiz" class="quiz">
+        <div class="container">
+            <h2 style="color: forestgreen">Kuiz Pemanasan Global🌵</h2>
+            <p style="margin-bottom: 20px;">Cek seberapa banyak yang kamu pahami tentang pemanasan global!</p>
+            <p style="margin-bottom: 20px;"><a href="https://quiz.zep.us/id/play/odoWBa" target="_blank" class="btn-kuis">Mulai Kuis</a></p>
+            <p></p>
+        </div> 
+    </section>
+    
+    <section id="tentangkami" class="quiz">
+        <div class="container">
+            <h2 class="smooth-bounce" style="color: darkgreen">Tentang Kami🌼</h2>
+            <p style="margin-bottom: 20px;">Kami adalah sekelompok siswa dari SMA Negeri 18 Palembang Kelas X.E.4 (Tahun Ajaran 2024/2025) yang peduli terhadap lingkungan, khususnya isu pemanasan global. Website ini merupakan bagian dari projek tugas P5, yang bertujuan untuk menyebarkan informasi secara edukatif dan menarik kepada masyarakat luas.</p>
+            <P style="margin-bottom: 20px;">Melalui website ini, kami ingin mengajak semua orang, khususnya pelajar seusia kami, untuk lebih memahami penyebab, dampak, dan solusi dari pemanasan global. Kami percaya bahwa perubahan besar bisa dimulai dari langkah kecil, dan salah satunya adalah dengan meningkatkan kesadaran lewat edukasi digital.
+</P>
+            <P>Anggota Kelompok 1:</P>
+            <p>- Dandhi Prima Martiano (11) : Pemrograman dan teknis website</p>
+            <p>- Naurah Kamila (26) : Penulis Konten, koordinator kelompok, desain visual, dan penyusun struktur halaman</p>
+            <p>- Faadiyah Khairunnisa (14) : Pengelola kuiz dan game edukasi</p>
+            <p>- Meilani Aulia Trianti (23) : Penyusun Naskah dan riset materi </p>
+            <p>- Raisya (29) : Riset Materi</p>
+            <p>- M. Gilang Cigra Alkhadafi (36) : Riset materi, penanggungjawab kontak email, dan penyedia jaringan</p>
+            <p>- Alif Daffa Nugroho (04) :Riset Media </p>
+            <p>- Dimas Aditiya Rahman (12) : Riset Media </p>
+            <p style="margin-bottom: 20px;">- M. Alfarras Ghulam Fakhry (18) : Dokumentasi</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; SMA NEGERI 18 PALEMBANG 2025 Edukasi Fisika | <a href="mailto:kelompok1p5sepuluhempatgmail@gmail.com">kelompok1p5sepuluhempat@gmail.com</a></p>
+        </div>
+    </footer>
+
+            <script src="script.js"></script>
+        </div>
+    </section>
+    </body>
+        
